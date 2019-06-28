@@ -1,5 +1,5 @@
 {
-  "name": "OPIExamen",
+  "name": "opi-examen",
   "version": "1.0.0",
   "description": "Examen frontend solicitado por OPI Analytics",
   "author": "ChibiChanNya",
@@ -14,18 +14,32 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
-    "express": "^4.16.4",
+    "@nuxtjs/axios": "^5.5.4",
     "@nuxtjs/vuetify": "0.5.5",
-    "@nuxtjs/axios": "^5.3.6",
-    "nuxt": "^2.0.0"
+    "chart.js": "^2.8.0",
+    "cross-env": "^5.2.0",
+    "delimiter-stream": "^2.0.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "jsonlines": "^0.1.1",
+    "lodash": "^4.17.11",
+    "lodash.groupby": "^4.6.0",
+    "nuxt": "^2.0.0",
+    "path": "^0.12.7",
+    "vue-chartjs": "^3.4.2",
+    "vue2-google-maps": "^0.10.6",
+    "vuetify-loader": "^1.2.2"
   },
   "devDependencies": {
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
     "@nuxtjs/eslint-config": "^0.0.1",
     "@nuxtjs/eslint-module": "^0.0.1",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^5.15.1",
     "eslint-config-standard": ">=12.0.0",
     "eslint-plugin-import": ">=2.16.0",
@@ -35,11 +49,12 @@
     "eslint-plugin-promise": ">=4.0.1",
     "eslint-plugin-standard": ">=4.0.0",
     "eslint-plugin-vue": "^5.2.2",
-    "@vue/test-utils": "^1.0.0-beta.27",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
+    "lodash-webpack-plugin": "^0.11.5",
+    "nodemon": "^1.18.9",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "vue-jest": "^3.0.3",
-    "nodemon": "^1.18.9"
+    "webpack": "^4.35.0"
   }
 }
