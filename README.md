@@ -11,7 +11,7 @@ Make sure the stream.json file is in the
 /static/ folder before launching.
 
 # install dependencies
-$ npm run install
+$ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
