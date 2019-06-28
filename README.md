@@ -4,6 +4,8 @@
 
 Si tienen alguna problema montando la APP o alguna duda sobre el código, por favor haganmelo saber cuanto antes.
 
+El código principal de la app se encuentra en en ```/pages/map.vue```. El resto es diseño, config y detallitos.
+
 ## Build Setup
 
 ``` bash
